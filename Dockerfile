@@ -6,7 +6,7 @@ MAINTAINER rm3l <armel@rm3l.org>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN mkdir /home/r2d2/roms/cm
+RUN mkdir -p /home/r2d2/roms/cm
 
 WORKDIR /home/r2d2/roms/cm
 
